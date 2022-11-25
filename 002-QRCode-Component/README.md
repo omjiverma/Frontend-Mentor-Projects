@@ -11,6 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+  - [Author](#author)
 
 
 ## Overview
@@ -108,4 +109,9 @@ main{
 .attribution a { color: hsl(228, 45%, 44%); }
 ```
 
+
+## Author
+
+- Website - [Omji Verma](https://www.github.com/omjiverma)
+- Frontend Mentor - [@omjiverma](https://www.frontendmentor.io/profile/yourusername)
 

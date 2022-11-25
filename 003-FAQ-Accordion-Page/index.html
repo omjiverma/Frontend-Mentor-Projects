@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <!-- Card Start -->
+    <main class="card">
+      <!-- Desktop Image -->
+      <div class="image-section-desktop">
+        <img src="./images/desktop-img.png" alt="" srcset="">
+        <div class="img-overlay">
+          <img src="./images/illustration-box-desktop.svg" alt="">
+        </div>
+      </div>
+      <!-- Desktop Image End -->
+
+      <!-- Accordion  Start -->
+      <!-- Image Mobo -->
+      <img class="mobo-img" src="./images/img-mobo.png" alt="" srcset="">
+
+      <div class="accordion">
+        <h1>FAQ</h1>
+        <!-- Signle Accordion -->
+        <div class="accordion-body">
+          <a class="accordion--btn" target="acc--one">How many team members can I invite ? <i class="fa-solid fa-angle-down"></i></a>
+          <div class="accordion--content" id="acc--one">
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </p>
+          </div>
+        </div>
+        <!-- Signle Accordion End-->
+
+        <!-- Signle Accordion -->
+        <div class="accordion-body">
+          <a class="accordion--btn" target="acc--two">What is the maximum file upload size ? <i class="fa-solid fa-angle-down"></i></a>
+          <div class="accordion--content" id="acc--two">
+            <p>
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </div>
+        </div>
+        <!-- Signle Accordion End-->
+
+        <!-- Signle Accordion -->
+        <div class="accordion-body">
+          <a class="accordion--btn" target="acc--three">How do I reset my password ? <i class="fa-solid fa-angle-down"></i></a>
+          <div class="accordion--content" id="acc--three">
+            <p>
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </div>
+        </div>
+        <!-- Signle Accordion End-->
+
+        <!-- Signle Accordion -->
+        <div class="accordion-body">
+          <a class="accordion--btn" target="acc--four">Can I cancel my subscription ? <i class="fa-solid fa-angle-down"></i></a>
+          <div class="accordion--content" id="acc--four">
+            <p>
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </div>
+        </div>
+        <!-- Signle Accordion End-->
+
+        <!-- Signle Accordion -->
+        <div class="accordion-body">
+          <a class="accordion--btn" target="acc--five">Do you provide additional support ? <i class="fa-solid fa-angle-down"></i></a>
+          <div class="accordion--content" id="acc--five">
+            <p>
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </div>
+        </div>
+        <!--  Signle Accordion End-->
+      </div>
+      <!-- Accordion End -->
+    </main>
+    <!-- Card End -->
+  </div>
+
+  <!-- Attribution start -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/omjiverma" target="_blank">Omji Verma</a>.
+  </div>
+  <!-- Attribution start -->
+
+  <script src="./app.js"></script>
+</body>
+</html>
