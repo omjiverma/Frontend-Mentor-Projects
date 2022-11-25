@@ -362,7 +362,7 @@ accBtns.forEach(accBtn => {
 ## Author
 
 - Website - [Omji Verma](https://www.github.com/omjiverma)
-- Frontend Mentor - [@omjiverma](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@omjiverma](https://www.frontendmentor.io/profile/omjiverma)
 
 
 
