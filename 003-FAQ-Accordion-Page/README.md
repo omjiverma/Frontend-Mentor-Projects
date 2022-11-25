@@ -31,7 +31,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com)
 - Live Site URL: [Live Site URL ](https://cute-sherbet-a3008b.netlify.app/)
 
 ## My process
