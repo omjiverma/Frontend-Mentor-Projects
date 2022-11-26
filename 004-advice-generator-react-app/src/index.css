@@ -1,0 +1,63 @@
+:root{
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-Blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/* Body */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--dark-blue);
+  font-family: 'Manrope', sans-serif;
+}
+.app{
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: var(--dark-grayish-blue);
+  width: 450px;
+  height: 330px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.card-header{
+  color: var(--neon-green);
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.card-text{
+  margin: 25px 25px;
+  font-size: 26px;
+  color: var(--light-cyan);
+  text-align: center;
+}
+.desktop-divider{
+  display: block;
+  margin: 35px auto 10px auto;
+}
+.card-button{
+  background-color: var(--neon-green);
+  padding: 13px 15px;
+  border-radius: 60px;
+  border:0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.card-button:hover{
+  box-shadow: 0px 1px 50px 2px var(--neon-green);
+  transition: ease 0.2s;
+}
