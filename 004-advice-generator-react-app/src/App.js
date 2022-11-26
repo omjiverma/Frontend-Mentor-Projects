@@ -8,7 +8,6 @@ function App() {
 
 
   const getAdvice = () =>{
-    console.log("Button Clicked")
     axios.get("https://api.adviceslip.com/advice")
     .then((response) => {
       setAdvice(response.data.slip)
@@ -26,9 +25,11 @@ function App() {
     <div className="app">
       <div className="card">
         <h1 className="card-header">Advice #{advice.id}</h1>
-        <p className="card-text">
-          {advice.advice}
-        </p>
+        <div className='card-body'>
+          <p className="card-text">
+            {advice.advice}
+          </p>
+        </div>
         <img src={desktopDivider} alt="desktop-divider" className="desktop-divider" />
         <button className="card-button" onClick = {getAdvice} ><img src={dice} alt="dice" /></button>
       </div>
