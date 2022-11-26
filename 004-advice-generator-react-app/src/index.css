@@ -6,6 +6,7 @@
   --dark-blue: hsl(218, 23%, 16%);
 }
 /* Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 /* Body */
 body{
@@ -15,6 +16,7 @@ body{
   background-color: var(--dark-blue);
   font-family: 'Manrope', sans-serif;
 }
+
 .app{
   overflow: hidden;
   height: 100vh;
@@ -23,6 +25,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+/* Card Styling */
 .card{
   background-color: var(--dark-grayish-blue);
   width: 450px;
@@ -67,6 +70,8 @@ body{
   box-shadow: 0px 1px 50px 2px var(--neon-green);
   transition: ease 0.2s;
 }
+
+/* Small Screen */
 @media only screen and (max-width: 600px) {
   .card{
     width: 85vw;
