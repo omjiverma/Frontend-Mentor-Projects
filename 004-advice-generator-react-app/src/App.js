@@ -22,8 +22,8 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
-      <div className="card">
+    <main className="app">
+      <article className="card">
         <h1 className="card-header">Advice #{advice.id}</h1>
         <div className='card-body'>
           <p className="card-text">
@@ -32,8 +32,8 @@ function App() {
         </div>
         <img src={desktopDivider} alt="desktop-divider" className="desktop-divider" />
         <button className="card-button" onClick = {getAdvice} ><img src={dice} alt="dice" /></button>
-      </div>
-    </div>
+      </article>
+    </main>
   );
 }
 
