@@ -1,10 +1,13 @@
 import './App.css';
+import MainScreen from './MainScreen';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Helloooooo</h1>
-    </div>
+    <main className="App">
+        <article className='"container'>
+          <MainScreen />
+        </article>
+    </main>
   );
 }
 

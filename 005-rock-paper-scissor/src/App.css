@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #1f3756, #1b2e4f, #182648, #161d41, #141539);
+    overflow: hidden;
+}
+.score-card{
+    border: 3px solid #606e85;
+    border-radius: 1rem;
+}
+
+.score > h1{
+    font-size: 1.2rem;
+    color: hsl(229, 64%, 46%);
+} 
+.score > p{
+    color: hsl(229, 25%, 31%);
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+.game{
+    margin-top: 6rem;
+    position: relative;
+}
+.game > img{
+    width: 40%;
+}
+
+
+.game-btns{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.img-btns{
+    width: 80%;
+}
+.paper{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 22%;
+}
+.scissor{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 55%;
+}
+.rock{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 39%;
+}
